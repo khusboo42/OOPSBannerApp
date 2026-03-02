@@ -1,47 +1,47 @@
-public class OOPSbannerApp{
+public class OOPSbannerApp {
 
     public static void main(String[] args) {
 
-        System.out.println(String.join(" ", 
-                "  ***  ", 
-                "  ***  ", 
-                " ******", 
-                " ******"));
+        String[] O = {
+            "   ****   ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            "   ****   "
+        };
 
-        System.out.println(String.join(" ", 
-                " *   * ", 
-                " *   * ", 
-                " *     ", 
-                " *     "));
+        String[] P = {
+            " ******   ",
+            " **    ** ",
+            " **    ** ",
+            " **    ** ",
+            " ******   ",
+            " **        ",
+            " **        ",
+            " **        ",
+            " **        "
+        };
 
-        System.out.println(String.join(" ", 
-                " *   * ", 
-                " *   * ", 
-                " ***** ", 
-                " ***** "));
+        String[] S = {
+            "   ******  ",
+            " **        ",
+            " **        ",
+            " **        ",
+            "   *****    ",
+            "        **  ",
+            "        **  ",
+            "        **  ",
+            " ******     "
+        };
 
-        System.out.println(String.join(" ", 
-                " *   * ", 
-                " *   * ", 
-                "     * ", 
-                "     * "));
-
-        System.out.println(String.join(" ", 
-                " *   * ", 
-                " *   * ", 
-                "     * ", 
-                "     * "));
-
-        System.out.println(String.join(" ", 
-                " *   * ", 
-                " *   * ", 
-                " *   * ", 
-                " *   * "));
-
-        System.out.println(String.join(" ", 
-                "  ***  ", 
-                "  ***  ", 
-                " ***** ", 
-                " ***** "));
+        for (int i = 0; i < O.length; i++) {
+            System.out.println(
+                String.join("   ", O[i], O[i], P[i], S[i])
+            );
+        }
     }
 }
