@@ -58,7 +58,4 @@ public class OOPSBannerUC6 {
 
         // Loop-based rendering
         for (String line : bannerLines) {
-            System.out.println(line);
-        }
-    }
-}
+            Syste
